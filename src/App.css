@@ -1,38 +1,88 @@
-.App {
+/* Code couleur :
+- orange : ff6600
+- bleue : 1877f2 
+- background : 
+*/
+
+body {
+  background-color: #e7f3ff;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e7f3ff;
+}
+
+.login-box {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ff6600; /* Orange color */
+}
+
+input {
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6600; /* Orange color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.SignUpButton{
+  background-color: #1877f2;
+  margin-top: 5px;
+}
+
+.message{
+  padding-top: 15px;
+  font-size: 13px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Left section */
+
+.LeftSection{
+  margin-top: 120px;
+  padding-right: 200px;
+  padding-bottom: 150px;
+  padding-left: 7px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.facebac{
+  /* margin-left: 100px; */
+  /* border: black solid 2px; */
+  font-size: 50px;
+  color: #ff6600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.facebacText{
+  /* border: black solid 2px; */
+
+  width: 400px;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signature{
+  font-size: 13px;
 }
